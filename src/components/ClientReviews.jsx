@@ -7,14 +7,11 @@ const ClientReviews = () => {
     "They are the best firm in the UK and they clean proficiently",
     "They are the best firm in the UK and they clean proficiently",
     "They are the best firm in the UK and they clean proficiently",
-    "They are the best firm in the UK and they clean proficiently",
-    "They are the best firm in the UK and they clean proficiently",
-    "They are the best firm in the UK and they clean proficiently",
   ]
   return (
     <div className="flex flex-col md:flex-row justify-center p-5 md:justify-between items-center gap-12 md:gap-10 px-4 md:px-20 w-full">
       {
-        reviewData?.slice(0,3)?.map((review,index) => (
+        reviewData?.map((review,index) => (
           <div key={index} className="py-10 rounded-xl relative bg-[#D7E8FF] flex justify-center items-center">
             <div className=" w-60 justify-center rounded-2xl md:w-full  px-6 flex flex-row md:flex-row items-center md:pl-20  text-center md:text-left">
               <h2 className="font-semibold text-md text-[#171AD4]">
