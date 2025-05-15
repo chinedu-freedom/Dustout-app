@@ -11,7 +11,7 @@ import ChooseUs2 from "../Reuseables/ChooseUS2";
 const WhyChooseUs = () => {
   return (
     <>
-      <div className="w-full flex flex-col justify-center items-center">
+      <div className="w-full flex flex-col justify-center items-center order-2 md:order-1 mt-20 md:mt-0">
         <h2 className="text-4xl font-bold text-center mb-10 text-[#538FDF]">
           Why Choose Us
         </h2>

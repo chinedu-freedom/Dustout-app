@@ -9,7 +9,7 @@ import deepCleaning from "../assets/Icons/deepCleaning.svg";
 
 const OurServices = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center order-2 md:order-1">
       <div className="w-fit">
         <h2 className="text-[#538FDF] font-bold mb-8 text-center text-4xl">
           Our Services

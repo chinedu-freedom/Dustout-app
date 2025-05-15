@@ -8,7 +8,7 @@ const CleanersCategory = () => {
       <div className="absolute inset-0 bg-[#020223] md:h-1/2 md:top-1/2 z-0" />
       
       <div className="relative flex items-center flex-col z-10 px-4 py-10">
-        <div className="flex mb-10">
+        <div className="flex mb-10 bg-[#C8DCF6] p-1 rounded-xl">
           <Button
             type="button"
             className="bg-[#176FD4] text-white font-semibold px-8 py-3 rounded-xl z-10 -mr-2 relative"
@@ -17,7 +17,7 @@ const CleanersCategory = () => {
           </Button>
           <Button
             type="button"
-            className="bg-[#C8DCF6] text-[#538FDF] font-semibold px-8 py-3 rounded-r-xl"
+            className="text-[#538FDF] font-semibold px-8 py-3 rounded-r-xl"
           >
             Industrial
           </Button>

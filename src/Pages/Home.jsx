@@ -23,7 +23,7 @@ const Home = () => {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="flex justify-between items-center w-full px-6 pt-6 z-50 relative">
+      <div className="flex justify-between md:justify-around items-center  w-full px-6 pt-6 z-50 relative">
         <img src={dustOutLogo} alt="DustOut" className="w-48 h-auto" />
         <div className="hidden md:flex items-center gap-20">
           <nav>
@@ -83,13 +83,17 @@ const Home = () => {
 
       <Hero />
       <About />
-      <OurServices />
-      <BookUs />
+      <div className="flex flex-col">
+        <OurServices className="" />
+        <BookUs className="" />
+      </div>
       <CleanersCatergory />
-      <WhyChooseUs />
-      <BookingProcedure />
-      <div className="flex flex-col justify-center items-center gap-10">
-        <h2 className="text-4xl font-bold text-center mb-8 text-[#538FDF]">
+      <div className="flex flex-col">
+        <WhyChooseUs />
+        <BookingProcedure />
+      </div>
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-2xl md:text-4xl w-[200px] md:w-full font-bold text-center md:mb-4  mb-8 text-[#538FDF]">
           What our clients are saying
         </h2>
         <ClientReviews />

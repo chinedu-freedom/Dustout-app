@@ -7,10 +7,10 @@ import Button from "../Reuseables/Button";
 const Hero = () => {
   return (
     <>
-<div className="Overflow-x-hidden justify-center gap-10 md:Items-start items-center flex flex-col md:flex-row text-center md:justify-evenly">
-      <div className="flex flex-col justify-center">
-          <h2 className="text-6xl font-bold text-[#12B368]">We Clean;</h2>
-          <h2 className="text-6xl font-bold text-[#171AD4]">
+<div className="overflow-x-hidden justify-center gap-10 md:Items-start items-center flex flex-col md:flex-row text-center md:justify-evenly">
+      <div className="flex flex-col px-10 justify-center md:w-[500px]  md:items-center">
+          <h2 className="text-6xl font-bold text-[#12B368] mb-1">We Clean;</h2>
+          <h2 className="text-5xl md:text-6xl font-bold text-[#171AD4]">
             So You Don't Have To
           </h2>
           <div className="flex justify-center md:justify-start  space-x-3 mt-5">
@@ -27,23 +27,23 @@ const Hero = () => {
               Book US
             </Button>
           </div>
-          <div className="flex justify-center md:justify-start  space-x-2 mt-5">
+          <div className="hidden md:flex md:items-center md:justify-start  md:space-x-2 md:mt-5">
             <img src={clientsImage} alt="" />
             <p>5000+ clients</p>
           </div>
         </div>
         <img src={heroImage} alt="Hero image" className="h-100 w-100" />
       </div>
-      <div className="relative w-[90%] h-50 mx-auto flex flex-col justify-center">
+      <div className="relative w-full  overflow-x-hidden h-20 md:h-48  flex flex-col justify-center">
         <img
           src={greenBar}
           alt="Green Bar"
-          className="w-full absolute top-4 left-0"
+          className="w-full absolute top-4"
         />
         <img
           src={blueBar}
           alt="Blue Bar"
-          className="absolute top-4 left-1 right-14 w-full "
+          className="absolute top-4 w-[calc(100%+200px)] transform scale-x-[1.01] md:translate-x-2"
         />
       </div>
     </>
