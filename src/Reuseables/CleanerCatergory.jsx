@@ -5,9 +5,8 @@ import Button from "./Button";
 
 const CleanerCategory = ({ title = "BASIC CLEANING", price = "39" }) => {
   return (
-    <div className="w-65 text-center flex flex-col justify-center bg-[#176FD4] rounded-lg py-5 px-5">
-      <h2 className="font-semibold text-lg text-white">{title}</h2>
-
+    <div className="w-full text-center flex flex-col justify-center bg-[#176FD4] rounded-lg py-5 px-5">
+      <h2 className="font-semibold text-lg text-center text-white">{title}</h2>
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center gap-3 my-1">
           <img src={euro} alt="Euro currency" />

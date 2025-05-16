@@ -84,8 +84,8 @@ const Home = () => {
       <Hero />
       <About />
       <div className="flex flex-col">
-        <OurServices className="" />
-        <BookUs className="" />
+        <OurServices  />
+        <BookUs />
       </div>
       <CleanersCatergory />
       <div className="flex flex-col">
@@ -93,7 +93,7 @@ const Home = () => {
         <BookingProcedure />
       </div>
       <div className="flex flex-col justify-center items-center">
-        <h2 className="text-2xl md:text-4xl w-[200px] md:w-full font-bold text-center md:mb-4  mb-8 text-[#538FDF]">
+        <h2 className="text-4xl w-[300px] md:w-full font-bold text-center md:mb-4  mb-10 text-[#538FDF]">
           What our clients are saying
         </h2>
         <ClientReviews />

@@ -6,7 +6,6 @@ import customerCare2 from "../assets/Icons/customerCare2.svg";
 import customerCare3 from "../assets/Icons/customerCare3.svg";
 import exquisiteHome from "../assets/Icons/exquisiteHome.svg";
 import ChooseUs from "../Reuseables/ChooseUS";
-import ChooseUs2 from "../Reuseables/ChooseUS2";
 
 const WhyChooseUs = () => {
   return (
@@ -16,7 +15,7 @@ const WhyChooseUs = () => {
           Why Choose Us
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
-          <ChooseUs2
+          <ChooseUs
             image={exceptionalExpertise}
             title="Exceptional Expertise"
           />
@@ -24,9 +23,9 @@ const WhyChooseUs = () => {
             image={ecoFriendly}
             title="Eco-friendly Cleaning Chemicals"
           />
-          <ChooseUs2 image={customerCare1} title="Excellent Customer Care" />
+          <ChooseUs image={customerCare1} title="Excellent Customer Care" />
           <ChooseUs image={customerCare2} title="Excellent Customer Care" />
-          <ChooseUs2 image={exquisiteHome} title="Exquisite Home Handling" />
+          <ChooseUs image={exquisiteHome} title="Exquisite Home Handling" />
           <ChooseUs image={customerCare3} title="Excellent Customer Care" />
         </div>
       </div>
