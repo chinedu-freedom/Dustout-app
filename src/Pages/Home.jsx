@@ -23,7 +23,7 @@ const Home = () => {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="flex justify-between md:justify-around items-center  w-full px-6 pt-6 z-50 relative">
+      <div className="flex justify-between md:justify-between md:px-30 items-center  w-full px-6 pt-6 z-50 relative">
         <img src={dustOutLogo} alt="DustOut" className="w-48 h-auto" />
         <div className="hidden md:flex items-center gap-20">
           <nav>
