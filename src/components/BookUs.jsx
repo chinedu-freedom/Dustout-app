@@ -122,15 +122,15 @@ const BookUs = () => {
                 </div>
                 <div className="flex flex-col w-full">
                   <label
-                    htmlFor="noOfLanscape"
+                    htmlFor="noOfLandscape"
                     className="text-[#538FDF] md:text-white font-semibold"
                   >
                     No of Landscape
                   </label>
                   <input
                     type="text"
-                    name="noOfLanscape"
-                    id="noOfLanscape"
+                    name="noOfLandscape"
+                    id="noOfLandscape"
                     className="bg-[#538FDF] md:bg-white rounded-md md:rounded-xl py-3 px-2 focus:outline-none focus:ring-0 w-full"
                     required
                   />
