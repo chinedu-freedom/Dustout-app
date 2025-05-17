@@ -12,8 +12,8 @@ const ClientReviews = () => {
     <div className="flex mt-8 md:mt-0 flex-col md:flex-row justify-center p-5 md:justify-between items-center gap-12 md:gap-10 px-4 md:px-20 w-full">
       {
         reviewData?.map((review,index) => (
-          <div key={index} className="py-10 rounded-xl relative bg-[#D7E8FF] flex justify-center items-center">
-            <div className=" w-60 justify-center rounded-2xl md:w-full  px-6 flex flex-row md:flex-row items-center md:pl-20  text-center md:text-left">
+          <div key={index} className=" pt-15 h-32 pb-6 md:pt-0 md:pb-0 md:py-10 rounded-xl relative bg-[#D7E8FF] flex justify-center items-center">
+            <div className=" w-60 justify-center rounded-2xl md:w-full  px-6  flex flex-row md:flex-row items-center md:pl-20  text-center md:text-left">
               <h2 className="font-semibold text-md text-[#171AD4]">
                 {review}
               </h2>

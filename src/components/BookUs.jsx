@@ -23,7 +23,7 @@ const BookUs = () => {
             />
           </div>
 
-          <div className="bg-white md:bg-[#538FDF]  h-[80%]  p-5 md:w-1/2 md:px-0">
+          <div className="md:bg-[#538FDF]  h-[80%]  p-5 md:w-1/2 md:px-0">
             <form className="py-4 md:py-2 flex flex-col space-y-1">
               <div className="flex items-center justify-center gap-3 md:gap-10">
                 <div className="flex flex-col w-full">

@@ -1,0 +1,43 @@
+[
+    {
+     "id": 1,
+     "name": "Christiana",
+     "imageUrl": "/firstTrustedClient.jpeg"
+    },
+    {
+     "id": 2,
+     "name": "Theresa",
+     "imageUrl": "https://www.google.com/imgres?q=female%20profile%20pics&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F733872%2Fpexels-photo-733872.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fwoman%2520profile%2F&docid=PIMrktnE0-gcPM&tbnid=3CXmoOQbjgVRmM&vet=12ahUKEwjaqJWsyqiNAxUzWEEAHSmNLXEQM3oFCIMBEAA..i&w=500&h=333&hcb=2&ved=2ahUKEwjaqJWsyqiNAxUzWEEAHSmNLXEQM3oFCIMBEAA"
+    },
+    {
+     "id": 3,
+     "name": "Joyce",
+     "imageUrl": "/thirdTrustedClient.jpeg"
+    },
+    {
+     "id": 4,
+     "name": "Clara",
+     "imageUrl": "/fourthTrustedClient.jpeg"
+    },
+    {
+     "id": 5,
+     "name": "Esther",
+     "imageUrl": "/fifthTrustedClient.jpeg"
+    },
+    {
+     "id": 3,
+     "name": "Joyce",
+     "imageUrl": "/thirdTrustedClient.jpeg"
+    },
+    {
+     "id": 4,
+     "name": "Clara",
+     "imageUrl": "/fourthTrustedClient.jpeg"
+    },
+    {
+     "id": 5,
+     "name": "Esther",
+     "imageUrl": "/fifthTrustedClient.jpeg"
+    }
+]
+

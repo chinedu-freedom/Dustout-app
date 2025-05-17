@@ -1,19 +1,19 @@
 import React from "react";
 import heroImage from "../assets/Images/heroImage.png";
-import clientsImage from "../assets/Images/clientsImage.png";
 import blueBar from "../assets/Images/blueBar.png";
 import greenBar from "../assets/Images/greenBar.png";
 import Button from "../Reuseables/Button";
+import TrustedClients from "./TrustedClients";
 const Hero = () => {
   return (
     <>
 <div className="overflow-x-hidden justify-center gap-10 md:Items-start items-center flex flex-col md:flex-row text-center md:justify-evenly">
       <div className="flex flex-col px-10 justify-center md:w-[500px]  md:items-center">
-          <h2 className="text-6xl font-bold text-[#12B368] mb-1">We Clean;</h2>
+          <h2 className="text-6xl font-bold text-[#12B368]">We Clean;</h2>
           <h2 className="text-5xl md:text-6xl font-bold text-[#171AD4]">
             So You Don't Have To
           </h2>
-          <div className="flex justify-center md:justify-start  space-x-3 mt-5">
+          <div className="  flex justify-center md:justify-start  space-x-3 mt-3">
             <Button
               type="button"
               className="bg-[#12B368] rounded-2xl text-white py-3.5 px-6 font-semibold"
@@ -27,10 +27,8 @@ const Hero = () => {
               Book US
             </Button>
           </div>
-          <div className="hidden md:flex md:items-center md:justify-start  md:space-x-2 md:mt-5">
-            <img src={clientsImage} alt="" />
-            <p>5000+ clients</p>
-          </div>
+          <div className="hidden md:flex md:items-center md:justify-start w-[75%] mt-1"> 
+          <TrustedClients />          </div> 
         </div>
         <img src={heroImage} alt="Hero image" className="h-100 w-100" />
       </div>
